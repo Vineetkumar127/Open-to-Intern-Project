@@ -18,6 +18,6 @@ router.post('/functionUp/interns', internsController.createInterns);
 //List students applied internship
 
 
-router.get("/functionup/collegeDetails", internsController.giveAllInterns)
+router.get("/functionup/collegeDetails", internsController.searchDataInterns)
 
 module.exports = router;

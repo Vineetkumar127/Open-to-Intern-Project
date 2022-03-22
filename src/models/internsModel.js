@@ -11,7 +11,8 @@ const internSchema = new mongoose.Schema({
         type: String,
         unique: true,
         required: true,
-        trim: true
+        trim: true,
+        
     },
     mobile: {
         type: String,

@@ -14,7 +14,7 @@ app.use(multer().any());
 
 
 
-mongoose.connect("mongodb+srv://ranjan:e91pDMx03Sx9wB2V@cluster0.u4idw.mongodb.net/VineetDB", {useNewUrlParser: true})
+mongoose.connect("mongodb+srv://ranjan:e91pDMx03Sx9wB2V@cluster0.u4idw.mongodb.net/VineetDB", {useNewUrlParser: true},)
     .then(() => console.log('mongodb running and connected'))
     .catch(err => console.log(err))
 
